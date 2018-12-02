@@ -1,0 +1,57 @@
+.entry-feature-image {
+  @include media($large) {
+    margin-top: -220px;
+  }
+}
+
+.custom-masthead {
+  background-size: cover;
+  background-origin: center center;
+  background-repeat: no-repeat;
+
+  color: #fff;
+
+  .wrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include media($large) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+
+  &.masthead {
+    margin-top: 0;
+  }
+}
+
+.feature-header, .feature-header-2 {
+  margin: 0;
+}
+
+.feature-header {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.feature-header-2 {
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+.navigation-wrapper+.custom-masthead {
+  @include media($large) {
+    margin-top: -94px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden-xs {
+  @include media(max-width $large-start) {
+    display: none;
+  }
+}

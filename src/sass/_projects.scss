@@ -1,0 +1,33 @@
+.project-item {
+
+  @include media($medium) {
+    @include span-columns(6 of 12);
+    @include omega(2n);
+  }
+
+  .project-link {
+    display: block;
+    width: 100%;
+    z-index: 1000;
+
+    text-align: center;
+    vertical-align: middle;
+
+    h1 {
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 1;
+      margin-top: 0.5rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+// .project-body {
+//   .entry-meta .project-logo-left {
+//     padding: 12px;
+//   }
+// }

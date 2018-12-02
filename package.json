@@ -1,21 +1,29 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "portfolio-gatsby",
+  "description": "Port of my jekyll-based portfolio website to Gatsby",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Mike Varrieur <mike.varrieur@gmail.com>",
   "dependencies": {
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
+    "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.11",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.0.7",
+    "gatsby-plugin-sass": "^2.0.4",
+    "gatsby-plugin-sharp": "^2.0.12",
+    "gatsby-remark-images": "^2.0.6",
     "gatsby-source-filesystem": "^2.0.4",
-    "gatsby-transformer-sharp": "^2.1.4",
+    "gatsby-transformer-remark": "^2.1.11",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.10.0",
+    "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0"
   },
+  "private": true,
   "keywords": [
     "gatsby"
   ],
@@ -23,15 +31,23 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "lint": "eslint --fix src/**/*.js",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.14.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mvarrieur/portfolio-gatsby"
   }
 }
