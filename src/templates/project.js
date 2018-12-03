@@ -36,6 +36,7 @@ const Project = ({ data }) => {
         <title>{title}</title>
         <style>{css}</style>
         <body id="post" />
+        <meta name="theme-color" content={color} />
       </Helmet>
 
       {image.feature && (

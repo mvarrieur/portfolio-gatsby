@@ -43,6 +43,7 @@
 .navigation-wrapper+.custom-masthead {
   @include media($large) {
     margin-top: -94px;
+    border-top: 50px solid #000;
   }
 }
 
