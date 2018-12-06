@@ -6,11 +6,11 @@
 const pageCreators = require('./page-creators');
 const slug = require('./src/helpers/slug');
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  pageCreators.projects(createPage, graphql);
-  pageCreators.projectTags(createPage, graphql);
+  await pageCreators.projects(createPage, graphql);
+  await pageCreators.projectTags(createPage, graphql);
 };
 
 exports.onCreateNode = ({ node, actions }) => {
