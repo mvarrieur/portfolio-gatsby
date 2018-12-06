@@ -34,7 +34,7 @@ const Layout = ({ children, bodyId }) => (
           <html lang="en" />
           <meta name="HandheldFriendly" content="True" />
           <meta name="MobileOptimized" content="320" />
-          <meta name="theme-color" content="#5589d5" />
+          <meta name="theme-color" content="#5589d5" data-react-helmet="true" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
