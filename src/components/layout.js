@@ -34,6 +34,8 @@ const Layout = ({ children, bodyId }) => (
           <html lang="en" />
           <meta name="HandheldFriendly" content="True" />
           <meta name="MobileOptimized" content="320" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-status-bar-style" content="black" />
           <meta name="theme-color" content="#5589d5" data-react-helmet="true" />
           <meta
             name="viewport"

@@ -8,6 +8,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-catch-links',
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -26,6 +27,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/content/projects`,
         name: 'projects',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/blog`,
+        name: 'blog',
       },
     },
     {
@@ -53,7 +61,22 @@ module.exports = {
               maxWidth: 960,
             },
           },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-smartypants',
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
