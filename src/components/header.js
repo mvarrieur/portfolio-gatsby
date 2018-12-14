@@ -46,6 +46,9 @@ class Header extends Component {
             <li>
               <Link to="/#contact">Contact</Link>
             </li>
+            <li>
+              <Link to="/blog/">Blog</Link>
+            </li>
           </ul>
         </nav>
       </div>

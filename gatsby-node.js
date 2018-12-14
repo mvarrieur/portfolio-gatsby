@@ -11,6 +11,7 @@ exports.createPages = async ({ actions, graphql }) => {
 
   await pageCreators.projects(createPage, graphql);
   await pageCreators.projectTags(createPage, graphql);
+  await pageCreators.blogPosts(createPage, graphql);
 };
 
 exports.onCreateNode = ({ node, actions }) => {

@@ -1,16 +1,16 @@
 const path = require('path');
 const slug = require('../src/helpers/slug');
 
-const ProjectPageCreator = (createPage, graphql) => {
+const BlogPostPageCreator = (createPage, graphql) => {
   /**
-   * Projects
+   * Blog Posts
    */
-  const projectTemplate = path.resolve(`src/templates/project.js`);
+  const blogTemplate = path.resolve(`src/templates/blogPost.js`);
   return graphql(`
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
-        filter: { fileAbsolutePath: { regex: "/(/content/projects)/.*.md$/" } }
+        filter: { fileAbsolutePath: { regex: "/(/content/blog)/.*.md$/" } }
       ) {
         edges {
           node {
@@ -27,12 +27,13 @@ const ProjectPageCreator = (createPage, graphql) => {
     }
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      const projectSlug = slug(node.frontmatter.title);
+      const blogSlug = slug(node.frontmatter.title);
+      console.log('creating blog', blogSlug);
       createPage({
-        path: `projects/${projectSlug}`,
-        component: projectTemplate,
+        path: `blog/${blogSlug}`,
+        component: blogTemplate,
         context: {
-          slug: projectSlug,
+          slug: blogSlug,
         },
       });
     });
@@ -41,4 +42,4 @@ const ProjectPageCreator = (createPage, graphql) => {
   });
 };
 
-module.exports = ProjectPageCreator;
+module.exports = BlogPostPageCreator;
