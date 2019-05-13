@@ -105,10 +105,9 @@ const IndexPage = ({ data }) => {
                 {projects.map(project => {
                   const { node: projectData } = project;
                   const { title, image } = projectData.frontmatter;
-                  const homeImagePath = `../images/${image.home}`;
 
                   // eslint-disable-next-line global-require, import/no-dynamic-require
-                  const imageFile = require(homeImagePath);
+                  const imageFile = require(`../images/${image.home}`);
 
                   return (
                     <div className="project-item">
