@@ -24,10 +24,15 @@ class Header extends Component {
     const { navigation } = this.state;
     return (
       <div className="navigation-wrapper">
-        <a id="nav-toggle" onClick={this.toggleNav}>
+        <button
+          className="navigation-button"
+          type="button"
+          id="nav-toggle"
+          onClick={this.toggleNav}
+        >
           {navigation.open && <i className="fa fa-times nav-menu-link" />}
           {!navigation.open && <i className="fa fa-bars nav-menu-link" />}
-        </a>
+        </button>
         <nav
           role="navigation"
           id="site-nav"

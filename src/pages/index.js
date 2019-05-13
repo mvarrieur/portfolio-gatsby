@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import slug from '../helpers/slug';
 import bostonSkyline from '../images/boston-skyline.jpg';
 import portrait from '../images/portrait.png';
@@ -106,8 +105,10 @@ const IndexPage = ({ data }) => {
                 {projects.map(project => {
                   const { node: projectData } = project;
                   const { title, image } = projectData.frontmatter;
+                  const homeImagePath = `../images/${image.home}`;
 
-                  const imageFile = require(`../images/${image.home}`);
+                  // eslint-disable-next-line global-require, import/no-dynamic-require
+                  const imageFile = require(homeImagePath);
 
                   return (
                     <div className="project-item">
