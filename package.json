@@ -2,6 +2,9 @@
   "name": "portfolio-gatsby",
   "description": "Port of my jekyll-based portfolio website to Gatsby",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.16.3"
+  },
   "author": "Mike Varrieur <mike.varrieur@gmail.com>",
   "dependencies": {
     "gatsby": "^2.0.19",
