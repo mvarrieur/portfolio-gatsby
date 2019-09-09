@@ -45,49 +45,8 @@ const IndexPage = ({ data }) => {
         <article className="entry">
           <div className="entry-wrapper">
             <header className="entry-header">
-              <h1 id="about" className="entry-title">
-                About
-              </h1>
-            </header>
-            <div className="entry-content">
-              <p>
-                I had the fortune of having <em>&ldquo;The Internet&rdquo;</em>{' '}
-                before most people that I knew had a computer. In 1998, while my
-                cousin was visiting from California and showed me how he was
-                starting his own video game website. For the month he was around
-                I learned how to create HTML pages, hyperlink them together, and
-                how to upload my own AOL.com homepage to show off my stuff.
-                Splash pages with &ldquo;click here to enter&rdquo; links and
-                nder construction gifs{' '}
-                <sup>
-                  <em>(gifs, not jifs...)</em>
-                </sup>{' '}
-                were now created by ME. It was <strong>amazing</strong>. When he
-                left I continued to persue the hobby and picked up every book I
-                could find on the subject at the library. I learned CSS,
-                JavaScript, and some dynamic server side languages somewhere
-                along the way. Now I am well versed in many back-end languages
-                and front-end frameworks, as well as just about every database
-                under the sun. I work with what works best for you.
-              </p>
-
-              <p>
-                I have been creating websites for almost <strong>20</strong>{' '}
-                years. What once was a curiosity in my childhood has bloomed
-                into a fun and fulfilling career. I have been with the web every
-                step of the way. I&lsquo;d love to join you on your next forray
-                into the web world. Let&lsquo;s{' '}
-                <a href="#contact">get in touch.</a>
-              </p>
-            </div>
-          </div>
-        </article>
-
-        <article className="entry">
-          <div className="entry-wrapper">
-            <header className="entry-header">
               <h1 id="work" className="entry-title">
-                Work
+                My Work
               </h1>
             </header>
             <div className="entry-content">
@@ -126,6 +85,47 @@ const IndexPage = ({ data }) => {
                   );
                 })}
               </div>
+            </div>
+          </div>
+        </article>
+
+        <article className="entry">
+          <div className="entry-wrapper">
+            <header className="entry-header">
+              <h1 id="about" className="entry-title">
+                About Me
+              </h1>
+            </header>
+            <div className="entry-content">
+              <p>
+                I had the fortune of having <em>The Internet</em> before most
+                people that I knew had a computer. In 1998 my cousin was
+                visiting from California and showed me how he was starting his
+                starting his own video game website; For the month he was around
+                I learned how to create HTML pages, hyperlink them together, and
+                how to upload my own AOL.com homepage to show off my stuff.
+                Splash pages with &ldquo;click here to enter&rdquo; links and
+                under construction gifs{' '}
+                <sup>
+                  <em>(gifs, not jifs...)</em>
+                </sup>{' '}
+                were now created by ME. It was <strong>amazing</strong>. When he
+                left I continued to persue the hobby and picked up every book I
+                could find about it at the library. I learned CSS, JavaScript,
+                and a whole bunch of dynamic server side languages along the
+                way. Now I am well versed in many back-end languages and
+                front-end frameworks, as well as just about every database under
+                the sun. I can work with what works best for you.
+              </p>
+
+              <p>
+                I have been creating websites for over <strong>20</strong>{' '}
+                years. What once was a curiosity in my childhood has bloomed
+                into a fun and fulfilling career. I have been with the web every
+                step of the way. I&lsquo;d love to join you on your next journey
+                into the web world. Let&lsquo;s{' '}
+                <a href="#contact">get in touch.</a>
+              </p>
             </div>
           </div>
         </article>
