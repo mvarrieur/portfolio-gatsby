@@ -9,7 +9,7 @@ image:
   home: projects/tommy-doyles/tommy-doyles-home.jpg
 ---
 
-_Tommy Doyle's Pub is a bar and restaurant with 3 locations in the southern part of Massachusetts. Their existing website was a bit dated and lacked the ability to update their menu and post events, so the site was redesigned and built with Wordpress for easy content management._
+_Tommy Doyle's Pub was a bar and restaurant with 3 locations in the southern part of Massachusetts. Their existing website was a bit dated and lacked the ability to update their menu and post events, so the site was redesigned and built with Wordpress for easy content management._
 
 ![Tommy Doyle's Pub](../../images/projects/tommy-doyles/tommy-doyles-screens.png)
 
