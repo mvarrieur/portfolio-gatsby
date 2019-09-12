@@ -6,6 +6,7 @@ tags:
     'NodeJS',
     'React',
     'Apache Kafka',
+    'Apache ZooKeeper',
     'Docker',
     'Microservices',
     'Responsive',
@@ -17,18 +18,16 @@ image:
   home: projects/meta/meta-home.jpg
 ---
 
-_Meta is a Boston based social media startup with the aim to unify the many social networks into a singular interface._
+_Liberty Mutual is a Fortune 75 insurance company with over 50,000 employees worldwide._
 
-![Meta](../../images/projects/meta/meta-screens.png)
+![Liberty Mutual](../../images/projects/liberty-mutual/liberty-mutual-screens.png)
 
 ## Roles
 
-This startup was created by a couple friends/coworkers I gained while working at [Leaf](/projects/leaf). I was able to work on the back-end and front-end of the product, mainly focusing on integrating new social networks and working out some kinks in the back-end.
+I was hired at Liberty Mutual as part of a large initiative to start to transform their online servicing business to use modern web frameworks. Using the experience I gained while helping my friends with [Meta](/projects/meta) I was able to jump right into the Node back-end and had a ton of fun learning React + Redux for the front-end.
 
-This was my first time using Node as anything other than a build tool, and I found it pretty interesting. I think being able to let front-end developers who are comfortable with Javascript work on the server side of things is a positive and welcome change for the web community. I was able to dive right in and understand how things worked immediately without knowing anything about Express or Node specifically.
-
-The result is an polished web app where you can share your profile with your friends who can keep track of what you are up to across many social media networks, without having to sign up for each network on their own.
+Liberty Mutual has also started to leverage a distributed Node.js microservice architecture using Docker, Hapi, Apache Kafka, traefik, Apache ZooKeeper, and consul.
 
 ## Technologies
 
-Meta uses NodeJS/ExpressJS for their back-end & API on top of a Firebase database which is also used for authentication. The front-end uses AngularJS and makes heavy use of Google's Material Design framework.
+Liberty Mutual uses NodeJS/ExpressJS for the back-end which leverages the existing SOAP and REST services as well as some new Node microservices. The front-end is now written in React leveraging Redux for state management.
