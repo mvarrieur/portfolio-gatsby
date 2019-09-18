@@ -16,7 +16,7 @@ tags:
   ]
 date: 2019-09-01T14:18:57-05:00
 image:
-  feature: projects/liberty-mutual/liberty-mutual-header-3.jpg
+  feature: projects/liberty-mutual/liberty-mutual-header.jpg
   circle: projects/liberty-mutual/liberty-mutual-circle-logo-2.png
   home: projects/meta/meta-home.jpg
 ---
