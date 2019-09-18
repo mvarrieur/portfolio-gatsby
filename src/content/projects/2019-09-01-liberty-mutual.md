@@ -18,7 +18,7 @@ date: 2019-09-01T14:18:57-05:00
 image:
   feature: projects/liberty-mutual/liberty-mutual-header.jpg
   circle: projects/liberty-mutual/liberty-mutual-circle-logo-2.png
-  home: projects/meta/meta-home.jpg
+  home: projects/liberty-mutual/liberty-mutual-home.jpg
 ---
 
 _Liberty Mutual is a Fortune 75 insurance company with over 50,000 employees worldwide._
