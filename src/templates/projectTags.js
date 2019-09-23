@@ -61,7 +61,7 @@ const ProjectTags = ({ data }) => {
                   <li>
                     <a href={`#${slug(currentTag.name)}`}>
                       {currentTag.name}
-                      <span>{currentTag.links.length + 1}</span>
+                      <span>{currentTag.links.length}</span>
                     </a>
                   </li>
                 ))}
