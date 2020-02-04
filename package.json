@@ -21,7 +21,7 @@
     "gatsby-transformer-sharp": "^2.1.8",
     "lodash": "^4.17.11",
     "node-sass": "^4.10.0",
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.7.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0"
