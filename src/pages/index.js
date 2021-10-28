@@ -66,7 +66,8 @@ const IndexPage = ({ data }) => {
                   const { node: projectData } = project;
                   const { title, image } = projectData.frontmatter;
 
-                  const imageFile = require(`../images/${image.home}`);
+                  const imageFile = require(`../images/${image.home}`).default;
+                  console.log('imageFile', imageFile);
 
                   return (
                     <div className="project-item">

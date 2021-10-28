@@ -17,10 +17,10 @@ const Project = ({ data }) => {
 
   /* eslint-disable import/no-dynamic-require, global-require */
   if (image.feature) {
-    featureImage = require(`../images/${image.feature}`);
+    featureImage = require(`../images/${image.feature}`).default;
   }
   if (image.circle) {
-    circleImage = require(`../images/${image.circle}`);
+    circleImage = require(`../images/${image.circle}`).default;
   }
   /* eslint-enable import/no-dynamic-require, global-require */
 
