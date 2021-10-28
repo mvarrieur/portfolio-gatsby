@@ -1,4 +1,4 @@
-module.exports = title =>
+module.exports = (title) =>
   title
     .toString()
     .toLowerCase()

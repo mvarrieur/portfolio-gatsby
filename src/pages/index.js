@@ -62,7 +62,7 @@ const IndexPage = ({ data }) => {
               </p>
 
               <div className="project-grid-container">
-                {projects.map(project => {
+                {projects.map((project) => {
                   const { node: projectData } = project;
                   const { title, image } = projectData.frontmatter;
 
