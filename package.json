@@ -3,7 +3,7 @@
   "description": "Port of my jekyll-based portfolio website to Gatsby",
   "version": "1.0.0",
   "engines": {
-    "node": "10.16.3"
+    "node": ">=16.13.0"
   },
   "author": "Mike Varrieur <mike.varrieur@gmail.com>",
   "dependencies": {
