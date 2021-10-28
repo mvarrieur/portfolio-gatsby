@@ -12,12 +12,12 @@ const ProjectTags = ({ data }) => {
 
   let tags = [];
   // Iterate through each post, putting all found tags into `tags`
-  posts.forEach(edge => {
+  posts.forEach((edge) => {
     if (get(edge, 'node.frontmatter.tags')) {
       const project = edge.node;
       const projectTags = project.frontmatter.tags;
 
-      projectTags.forEach(projectTag => {
+      projectTags.forEach((projectTag) => {
         const projectUrl = `/projects/${slug(project.frontmatter.title)}`;
         let idx = -1;
 
@@ -42,7 +42,7 @@ const ProjectTags = ({ data }) => {
     }
   });
 
-  tags = sortBy(tags, cTag => get(cTag, 'links.length', 100) * -1);
+  tags = sortBy(tags, (cTag) => get(cTag, 'links.length', 100) * -1);
 
   return (
     <Layout>
@@ -57,7 +57,7 @@ const ProjectTags = ({ data }) => {
             </header>
             <div className="entry-content">
               <ul className="tag-box inline">
-                {tags.map(currentTag => (
+                {tags.map((currentTag) => (
                   <li>
                     <a href={`#${slug(currentTag.name)}`}>
                       {currentTag.name}
@@ -66,11 +66,11 @@ const ProjectTags = ({ data }) => {
                   </li>
                 ))}
               </ul>
-              {tags.map(currentTag => (
+              {tags.map((currentTag) => (
                 <Fragment>
                   <h2 id={slug(currentTag.name)}>{currentTag.name}</h2>
                   <ul className="post-list">
-                    {currentTag.links.map(projectLink => (
+                    {currentTag.links.map((projectLink) => (
                       <li>
                         <Link to={projectLink.link}>{projectLink.title}</Link>
                       </li>
@@ -91,7 +91,7 @@ ProjectTags.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query($tags: [String]) {
+  query ($tags: [String]) {
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }

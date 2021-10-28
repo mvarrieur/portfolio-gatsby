@@ -85,7 +85,7 @@ const Project = ({ data }) => {
                   <span>
                     <strong>Featuring:</strong>
                   </span>
-                  {tags.map(tag => (
+                  {tags.map((tag) => (
                     <span key={slug(tag)}>
                       <a
                         href={`/tags/projects/#${slug(tag)}`}
@@ -115,7 +115,7 @@ Project.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {

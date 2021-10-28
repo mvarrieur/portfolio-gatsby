@@ -18,7 +18,7 @@ const Layout = ({ children, bodyId }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <Helmet
           titleTemplate={`%s | ${data.site.siteMetadata.title}`}
