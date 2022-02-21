@@ -7,7 +7,7 @@
   },
   "author": "Mike Varrieur <mike.varrieur@gmail.com>",
   "dependencies": {
-    "gatsby": "^4.0.2",
+    "gatsby": "^4.7.2",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-catch-links": "^4.0.0",
     "gatsby-plugin-manifest": "^4.0.0",
