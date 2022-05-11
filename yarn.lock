@@ -6813,16 +6813,16 @@ gatsby-plugin-catch-links@^4.14.0:
     "@babel/runtime" "^7.15.4"
     escape-string-regexp "^1.0.5"
 
-gatsby-plugin-manifest@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.0.0.tgz#7b66405c3e0cee8de78b38086272edc366ceb09d"
-  integrity sha512-2SAg68WS/LZpw+klcoopOI/a9nOyEa7FaviGa4ps+kSWZ1Gvxy5NAuw+qjUCV683mc4ddWPEGuQOFO4WUTRy+Q==
+gatsby-plugin-manifest@^4.14.0:
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.14.0.tgz#aa6414936a3f39a7af520b367e1e594f3a9d48ee"
+  integrity sha512-vwN5ZasR6/I9Xd1Ar3+UhMaYN6EU7PJhJKY6aQMAtG1Qxva5lDjmrWNzUlm8NHL/XmB4VSS+A4TZUZHyoygZ7Q==
   dependencies:
     "@babel/runtime" "^7.15.4"
-    gatsby-core-utils "^3.0.0"
-    gatsby-plugin-utils "^2.0.0"
-    semver "^7.3.5"
-    sharp "^0.29.1"
+    gatsby-core-utils "^3.14.0"
+    gatsby-plugin-utils "^3.8.0"
+    semver "^7.3.7"
+    sharp "^0.30.3"
 
 gatsby-plugin-offline@^5.13.0:
   version "5.13.0"
