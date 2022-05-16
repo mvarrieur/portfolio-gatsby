@@ -6940,20 +6940,20 @@ gatsby-react-router-scroll@^5.14.0:
     "@babel/runtime" "^7.15.4"
     prop-types "^15.8.1"
 
-gatsby-remark-images@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-6.0.0.tgz#53d3f438b1bbe3e144ef26214a8a99c6f22c77fe"
-  integrity sha512-6jkml+QtAf/UY2DfNRskqXtoeasJiDzZmx+j6G3xdVJ/fyg0OzoLCyFAyMLLrhXF1UkxiPb8vdh92frj8IVWcQ==
+gatsby-remark-images@^6.14.0:
+  version "6.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-6.14.0.tgz#18d170151fd71aa5665222adb680f39710a66523"
+  integrity sha512-IGNZ8xUVvbThmg4NeRavX+5BDG4DEGus4hKi/GdWYX1kVGn+I3q4H8O7Kpa7NDpruIF+eY2EvbtTmoNpVrk/Ag==
   dependencies:
     "@babel/runtime" "^7.15.4"
+    "@gatsbyjs/potrace" "^2.2.0"
     chalk "^4.1.2"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^3.0.0"
+    gatsby-core-utils "^3.14.0"
     is-relative-url "^3.0.0"
     lodash "^4.17.21"
     mdast-util-definitions "^4.0.0"
-    potrace "^2.1.8"
-    query-string "^6.13.3"
+    query-string "^6.14.1"
     unist-util-select "^3.0.4"
     unist-util-visit-parents "^3.1.1"
 
@@ -10892,7 +10892,7 @@ qs@^6.9.4:
   dependencies:
     side-channel "^1.0.4"
 
-query-string@^6.13.3, query-string@^6.13.8, query-string@^6.14.1:
+query-string@^6.13.8, query-string@^6.14.1:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
   integrity sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw==
