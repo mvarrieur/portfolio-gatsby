@@ -6884,10 +6884,10 @@ gatsby-plugin-page-creator@^4.14.0:
     globby "^11.1.0"
     lodash "^4.17.21"
 
-gatsby-plugin-react-helmet@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-5.0.0.tgz#2b94c121117c0095f3e937abdaa59be34d105b99"
-  integrity sha512-UoaVYIwimGkedhoJ7OP/BOVFsmSdiuGE1/OyVmv9Y6J8Umk0mGXOXi4aktljMaPKoHyp67WpGtG30g52GvNxTQ==
+gatsby-plugin-react-helmet@^5.23.0:
+  version "5.23.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-5.23.0.tgz#205224abc96cdb86094967f3eb1abd28ca4fe55c"
+  integrity sha512-xS8WjuyRoeYv8U2YSHNfnF1o4LPq2YMY6Za04tGnGd+g3C8dSXcQO6mP4Pr5jDzFxOpCitwAG7C22peK8a/zIQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
