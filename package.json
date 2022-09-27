@@ -5,7 +5,7 @@
   "engines": {
     "node": ">=16.13.0"
   },
-  "author": "Mike Varrieur <mike.varrieur@gmail.com>",
+  "author": "Mike Varrieur <mike@varrieur.dev>",
   "dependencies": {
     "gatsby": "^4.14.0",
     "gatsby-image": "^3.11.0",
