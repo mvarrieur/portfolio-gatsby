@@ -143,8 +143,8 @@ const IndexPage = ({ data }) => {
                 Do you want to work together? Reach out and drop me a line:{' '}
                 <strong>
                   <em>
-                    <a href="mailto:mike.varrieur+website@gmail.com">
-                      mike.varrieur@gmail.com
+                    <a href="mailto:mike+website@varrieur.dev">
+                      mike at varrieur dot dev
                     </a>
                   </em>
                 </strong>
