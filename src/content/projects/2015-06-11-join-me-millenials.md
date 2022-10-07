@@ -21,4 +21,4 @@ I worked on this project for about a week throughout the different iterations fr
 
 ## Technologies
 
-Hand configured SVG and CSS animations were at the heart of this project. This was my first time dealing with serious CSS and SVG animations, especially ones that were triggered at certain points of the users journey throughout the page. It was a fun exercise and the end product turned out pretty fun to scroll through.
+Hand configured SVG and CSS animations were at the heart of this project. This was my first time dealing with serious CSS and SVG animations, especially ones that were triggered at certain points of the users journey throughout the page. It was a challenging exercise and the end product turned out pretty fun to scroll through.
