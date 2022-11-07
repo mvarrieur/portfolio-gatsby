@@ -49,6 +49,9 @@ const Layout = ({ children, bodyId }) => (
             integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+"
             crossOrigin="anonymous"
           />
+          <link
+            rel="me"
+            href="https://mastodon.social/@icancode" />
 
           <body id={bodyId} />
         </Helmet>
