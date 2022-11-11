@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
 
-import Header from './header';
-import Footer from './footer';
-import '../sass/main.scss';
+import Header from "./header";
+import Footer from "./footer";
+import "../sass/main.scss";
 
 const Layout = ({ children, bodyId }) => (
   <StaticQuery
@@ -25,9 +25,9 @@ const Layout = ({ children, bodyId }) => (
           title={data.site.siteMetadata.title}
           meta={[
             {
-              name: 'description',
+              name: "description",
               content:
-                'Michael Varrieur - A Boston, MA based web developer with a passion for all things web.',
+                "Michael Varrieur - A Boston, MA based web developer with a passion for all things web.",
             },
           ]}
         >
@@ -49,9 +49,7 @@ const Layout = ({ children, bodyId }) => (
             integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+"
             crossOrigin="anonymous"
           />
-          <link
-            rel="me"
-            href="https://mastodon.social/@icancode" />
+          <link rel="me" href="https://hachyderm.io/@mvarrieur" />
 
           <body id={bodyId} />
         </Helmet>
@@ -69,7 +67,7 @@ Layout.propTypes = {
 };
 
 Layout.defaultProps = {
-  bodyId: 'page',
+  bodyId: "page",
 };
 
 export default Layout;
